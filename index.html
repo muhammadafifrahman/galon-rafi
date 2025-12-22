@@ -1,0 +1,219 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="dist/assets/css/output.css" rel="stylesheet">
+    <style>
+        .cover {
+            background-image: url(../dist/assets/images/cover-galon.jpg);
+            /* height: 100vh; */
+            background-size: cover;
+            background-position: center;
+            /* filter: blur(5px);
+            z-index: -9999px; */
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Website Galon</title>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <section class="sticky top-0 z-50">
+        <nav class="p-4 bg-gray-950 flex justify-between items-center flex-wrap ">
+            <div class="flex items-center shrink-0 mr-6">
+                <img src="../dist/assets/images/logo1.png" alt="" width="50">
+                <a href="#beranda" class="text-white font-sans font-bold hover:text-gray-400">RAFI ISI ULANG GALON</a>
+            </div>
+
+            <div class="mt-4 w-full grow lg:mt-0 lg:flex lg:items-center lg:w-auto lg:ml-5">
+                <div class="text-base lg:grow font-sans">
+                    <a href="#beranda" class="block lg:mr-4 lg:inline-block text-white hover:text-gray-400">Beranda</a>
+                    <a href="#layanan" class="block lg:mr-4 lg:inline-block text-white hover:text-gray-400">Layanan</a>
+                    <a href="#kontak" class="block lg:mr-4 lg:inline-block text-white hover:text-gray-400">Kontak
+                        Kami</a>
+                    <a href="#galeri" class="block lg:mr-4 lg:inline-block text-white hover:text-gray-400">Galeri
+                        Foto</a>
+                </div>
+
+                <div>
+                    <a href="https://wa.me/6282157876686" target="_blank"
+                        class="mt-2 lg:mt-0 inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-blue-600 hover:bg-white transition duration-300 font-semibold">
+                        Hubungi Kami via WA
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </section>
+    <!-- ./ Navbar -->
+
+    <!-- Tentang Kami -->
+    <section id="beranda" class="py-12 bg-blue-500">
+        <div class="container mx-auto flex flex-col lg:flex-row lg:items-center lg:justify-between">
+            <div class="p-4 lg:w-3/5">
+                <h1 class="text-4xl md:text-6xl lg:text-7xl font-extrabold text-white">Kesegaran Tiada Henti</h1>
+                <p class="text-base md:text:lg lg:text-2xl text-white mt-3 font-semibold">Air minum galon berkualitas
+                    tinggi dengan pengiriman
+                    cepat dan praktis untuk kebutuhan hidrasi keluarga Anda.</p>
+            </div>
+
+            <div class="p-4 lg:w-2/5">
+                <img src="dist/assets/images/galon.png" alt=""
+                    class="w-full h-auto hover:scale-105 transition-transform">
+            </div>
+        </div>
+    </section>
+    <!-- ./ Tentang Kami -->
+
+    <!-- Layanan -->
+    <section id="layanan" class="px-auto py-5 bg-gray-100">
+        <div class="text-center">
+            <h2 class="text-4xl font-bold underline-offset-0 mt-3">Mengapa Memilih Kami?</h2>
+            <h2 class="text-sm text-gray-500 mt-1">Kami memberikan pelayanan terbaik untuk kenyamanan Anda
+            </h2>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 m-4">
+            <div class="bg-white px-8 py-4 shadow-xl rounded m-2 hover:shadow-2xl transition-shadow duration-300">
+                <div class="text-center">
+                    <i class="fa-solid fa-droplet text-4xl text-blue-700"></i>
+                </div>
+
+                <div class="py-2 px-2 text-center mt-1">
+                    <h2 class="text-gray-900 font-bold text-lg">Air Bersih & Higienis</h2>
+                    <p class="text-sm text-gray-500 mt-1">Proses pengisian yang steril dan terjaga kebersihannya untuk
+                        kesehatan keluarga Anda.</p>
+                </div>
+            </div>
+
+            <div class="bg-white px-8 py-4 shadow-xl rounded m-2 hover:shadow-2xl transition-shadow duration-300">
+                <div class="text-center">
+                    <i class="fa-solid fa-truck-fast text-4xl text-blue-700"></i>
+                </div>
+
+                <div class="py-2 px-2 text-center mt-1">
+                    <h2 class="text-gray-900 font-bold text-lg">Bisa Ditunggu atau Dikirim</h2>
+                    <p class="text-sm text-gray-500 mt-1">Anda boleh menunggu saat pengisian dilakukan atau minta
+                        kirimkan selama pengiriman bisa dilakukan di lokasi tertentu serta tersedia.</p>
+                </div>
+            </div>
+
+            <div class="bg-white px-8 py-4 shadow-xl rounded m-2 hover:shadow-2xl transition-shadow duration-300">
+                <div class="text-center">
+                    <i class="fa-solid fa-wallet text-4xl text-blue-700"></i>
+                </div>
+
+                <div class="py-2 px-2 text-center mt-1">
+                    <h2 class="text-gray-900 font-bold text-lg">Harga Terjangkau</h2>
+                    <p class="text-sm text-gray-500 mt-1">Hanya Rp 5.000 per galon dengan kualitas terbaik.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ./ Layanan -->
+
+    <!-- Kontak Kami -->
+    <section id="kontak" class="bg-blue-950 py-5 px-5">
+        <div class="max-w-xl mx-auto">
+            <div>
+                <h2 class="text-white text-4xl font-bold">Hubungi Kami</h2>
+                <p class="text-base text-gray-50 mt-1">Silakan hubungi kami untuk informasi lebih lanjut atau pemesanan.
+                </p>
+            </div>
+
+            <div class="space-y-1 mt-2">
+                <div class="flex items-center">
+                    <i class="fa-solid fa-phone text-white text-2xl"></i>
+                    <h2 class="text-white text-lg ml-2.5">Telepon/WhatsApp</h2>
+                </div>
+                <p class="text-white text-lg ml-11">0821 5787 6686</p>
+
+                <div class="flex items-center">
+                    <i class="fas fa-map-marker-alt contact-icon text-white text-2xl"></i>
+                    <h2 class="text-white text-lg ml-2.5">Alamat</h2>
+                </div>
+                <p class="text-white text-lg ml-10">Jalan Ahmad Yani Km 2,5 Simpang Ulin I No.24 RT 014 RW 002
+                </p>
+
+                <div class="flex items-center">
+                    <i class="fas fa-clock contact-icon text-white text-2xl"></i>
+                    <h2 class="text-white text-lg ml-2.5">Jam Operasional</h2>
+                </div>
+                <p class="text-white text-lg ml-10">Senin-Ahad : 06.30-22.00 WITA</p>
+
+            </div>
+        </div>
+    </section>
+    <!-- ./ Kontak Kami -->
+
+    <!-- Galeri Foto -->
+    <section id="galeri" class="bg-white py-5 px-5 text-gray-900">
+        <div class="text-center mb-8">
+            <h2 class="text-4xl font-bold">Galeri Foto</h2>
+            <p class="text-base text-gray-800">Berikut foto dari kami</p>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 m-4">
+
+            <div class="bg-gray-100 px-4 py-4 shadow-xl rounded">
+                <div class="py-2 px-2 text-center">
+                    <img src="dist/assets/images/cover-galon.jpg" alt="Proses pengisian galon higienis"
+                        class="w-full h-auto">
+                </div>
+            </div>
+
+            <div class="bg-gray-100 px-4 py-4 shadow-xl rounded">
+                <div class="py-2 px-2 text-center">
+                    <img src="dist/assets/images/galon-1.jpg" alt="Proses pengisian galon higienis"
+                        class="w-full h-auto">
+                </div>
+            </div>
+
+            <div class="bg-gray-100 px-4 py-4 shadow-xl rounded">
+                <div class="py-2 px-2 text-center">
+                    <img src="dist/assets/images/galon-2.jpg" alt="Proses pengisian galon higienis"
+                        class="w-full h-auto">
+                </div>
+            </div>
+
+            <div class="bg-gray-100 px-4 py-4 shadow-xl rounded">
+                <div class="py-2 px-2 text-center">
+                    <img src="dist/assets/images/galon-3.jpg" alt="Proses pengisian galon higienis"
+                        class="w-full h-auto">
+                </div>
+            </div>
+
+            <div class="bg-gray-100 px-4 py-4 shadow-xl rounded">
+                <div class="py-2 px-2 text-center">
+                    <img src="dist/assets/images/galon-4.jpg" alt="Proses pengisian galon higienis"
+                        class="w-full h-auto">
+                </div>
+            </div>
+
+            <div class="bg-gray-100 px-4 py-4 shadow-xl rounded">
+                <div class="py-2 px-2 text-center">
+                    <img src="dist/assets/images/cover-galon.jpg" alt="Proses pengisian galon higienis"
+                        class="w-full h-auto">
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- ./ Galeri Foto -->
+
+    <!-- Footer -->
+    <section class="bg-blue-950 py-6">
+        <h1 class="text-sm text-gray-50 text-center">Copyright &copy; 2025 Rafi Isi Ulang Air Minum Galon</h1>
+    </section>
+    <!-- ./ Footer -->
+</body>
+
+</html>
